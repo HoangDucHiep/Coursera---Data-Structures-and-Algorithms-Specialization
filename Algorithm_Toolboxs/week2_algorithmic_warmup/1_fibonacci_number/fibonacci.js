@@ -16,6 +16,11 @@ function readLine(line) {
 
 function fib(n) {
     // write your code here
+    let fibNum = [0, 1, 1];
+    for (let i = 3; i <= n; i++) {
+        fibNum.push(fibNum[i - 1] + fibNum[i - 2])
+    }
+    return fibNum[n]
 }
 
 module.exports = fib;
