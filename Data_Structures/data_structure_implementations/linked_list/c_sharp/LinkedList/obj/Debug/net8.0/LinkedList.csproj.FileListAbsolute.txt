@@ -1,0 +1,15 @@
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/bin/Debug/net8.0/LinkedList
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/bin/Debug/net8.0/LinkedList.deps.json
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/bin/Debug/net8.0/LinkedList.runtimeconfig.json
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/bin/Debug/net8.0/LinkedList.dll
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/bin/Debug/net8.0/LinkedList.pdb
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/LinkedList.AssemblyInfoInputs.cache
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/LinkedList.AssemblyInfo.cs
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/LinkedList.csproj.CoreCompileInputs.cache
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/LinkedList.sourcelink.json
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/LinkedList.dll
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/refint/LinkedList.dll
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/LinkedList.pdb
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/LinkedList.genruntimeconfig.cache
+/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/linked_list/c_sharp/LinkedList/obj/Debug/net8.0/ref/LinkedList.dll
