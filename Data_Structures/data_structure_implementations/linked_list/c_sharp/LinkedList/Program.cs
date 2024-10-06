@@ -1,4 +1,7 @@
-﻿SingleLinkedList<int> list = new SingleLinkedList<int>();
+﻿using DataStructures.LinkedList.DoubleLinkedList;
+using DataStructures.LinkedList.SingleLinkedList;
+
+DoubleLinkedList<int> list = new DoubleLinkedList<int>();
 list.PushFront(5);
 Console.WriteLine("Top now is :" + list.TopFront()); // 5
 list.PushFront(10);
@@ -19,7 +22,7 @@ Console.WriteLine("Remove 20: " + list.Remove(20)); // 20
 
 Console.WriteLine("Contains 20: " + list.Contains(20)); // 25
 
-SingleLinkedList<IntWrapper> list2 = new SingleLinkedList<IntWrapper>();
+DoubleLinkedList<IntWrapper> list2 = new DoubleLinkedList<IntWrapper>();
 list2.PushFront(new IntWrapper { Value = 5 });
 list2.PushFront(new IntWrapper { Value = 10 });
 list2.PushFront(new IntWrapper { Value = 15 });
