@@ -29,9 +29,9 @@
 /// <seealso cref="SingleLinkedList{T}.Node"/>
 public class SingleLinkedList<T>
 {
-    public Node<T>? Head { get; set; }  // Head Node of the list
-    public Node<T>? Tail { get; set; }  // Tail Node of the list
-    public int Size { get; set; }      // Number of Nodes in the list
+    private Node<T>? Head { get; set; }  // Head Node of the list
+    private Node<T>? Tail { get; set; }  // Tail Node of the list
+    public int Size { get; private set; }      // Number of Nodes in the list
 
     public bool IsEmpty() => Size == 0;  // Check if the list is empty
 
@@ -416,6 +416,16 @@ public class SingleLinkedList<T>
             current = current.Next; // Move to the next Node
         }
     }
+
+
+    public void Clear()
+    {
+        Head = null;    // Set Head to null
+        Tail = null;    // Set Tail to null
+        Size = 0;       // Set the size to 0
+    }
+
+    // implement iterator soon
 
 
 }
