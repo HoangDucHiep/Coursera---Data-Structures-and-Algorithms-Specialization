@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/tree/c sharp/Tree/Tree.csproj": {}
+    "D:\\PraticeAndLearning\\Coursera - Data Structures and Algorithms Specialization\\Data_Structures\\data_structure_implementations\\tree\\c sharp\\Tree\\Tree.csproj": {}
   },
   "projects": {
-    "/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/tree/c sharp/Tree/Tree.csproj": {
+    "D:\\PraticeAndLearning\\Coursera - Data Structures and Algorithms Specialization\\Data_Structures\\data_structure_implementations\\tree\\c sharp\\Tree\\Tree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/tree/c sharp/Tree/Tree.csproj",
+        "projectUniqueName": "D:\\PraticeAndLearning\\Coursera - Data Structures and Algorithms Specialization\\Data_Structures\\data_structure_implementations\\tree\\c sharp\\Tree\\Tree.csproj",
         "projectName": "Tree",
-        "projectPath": "/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/tree/c sharp/Tree/Tree.csproj",
-        "packagesPath": "/home/hoanghiep/.nuget/packages/",
-        "outputPath": "/mnt/d/PraticeAndLearning/Coursera - Data Structures and Algorithms Specialization/Data_Structures/data_structure_implementations/tree/c sharp/Tree/obj/",
+        "projectPath": "D:\\PraticeAndLearning\\Coursera - Data Structures and Algorithms Specialization\\Data_Structures\\data_structure_implementations\\tree\\c sharp\\Tree\\Tree.csproj",
+        "packagesPath": "C:\\Users\\HoangHiep\\.nuget\\packages\\",
+        "outputPath": "D:\\PraticeAndLearning\\Coursera - Data Structures and Algorithms Specialization\\Data_Structures\\data_structure_implementations\\tree\\c sharp\\Tree\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/hoanghiep/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\HoangHiep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

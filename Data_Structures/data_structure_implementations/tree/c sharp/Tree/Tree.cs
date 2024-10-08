@@ -26,40 +26,27 @@ namespace DataStructures.Tree
 
         public int Height(Node<T> node)
         {
-            if (node == null)
+
+            int maxHeight = 0;
+            foreach (var child in node.Children)
             {
-                return 0;
-            }
-            else
-            {
-                int maxHeight = 0;
-                foreach (var child in node.Children)
+                int childHeight = Height(child);
+                if (childHeight > maxHeight)
                 {
-                    int childHeight = Height(child);
-                    if (childHeight > maxHeight)
-                    {
-                        maxHeight = childHeight;
-                    }
+                    maxHeight = childHeight;
                 }
-                return 1 + maxHeight;
             }
+            return 1 + maxHeight;
         }
 
         public int Size(Node<T> node)
         {
-            if (node == null)
+            int size = 1;
+            foreach (var child in node.Children)
             {
-                return 0;
+                size += Size(child);
             }
-            else
-            {
-                int size = 1;
-                foreach (var child in node.Children)
-                {
-                    size += Size(child);
-                }
-                return size;
-            }
+            return size;
         }
 
 
