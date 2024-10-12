@@ -1,3 +1,8 @@
+/*
+    Implementing Double Linked List in C#
+    By: Hoang Hiep
+*/
+
 using System.Collections;
 
 namespace DataStructures.LinkedList.DoubleLinkedList

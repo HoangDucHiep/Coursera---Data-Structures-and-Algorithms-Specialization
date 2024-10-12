@@ -13,7 +13,6 @@ class TreeHeight:
         self.parent = list(map(int, sys.stdin.readline().split()))
 
     def compute_height(self):
-        # Replace this code with a faster implementation
         root = self.build_tree()
         # compute height using dfs
         max_height = 0

@@ -1,3 +1,10 @@
+/*
+    Implementing Single Linked List in C#
+    By: Hoang Hiep
+*/
+
+using System.Collections;
+
 namespace DataStructures.LinkedList.SingleLinkedList
 {
     #region Single Linked List Class
@@ -24,7 +31,7 @@ namespace DataStructures.LinkedList.SingleLinkedList
     /// </remarks>
     /// <seealso cref="Node{T}"/>
     /// <seealso cref="SingleLinkedList{T}.Node"/>
-    public class SingleLinkedList<T>
+    public class SingleLinkedList<T> : IEnumerable<T>
     {
         private Node<T>? Head { get; set; }  // Head Node of the list
         private Node<T>? Tail { get; set; }  // Tail Node of the list
@@ -422,6 +429,21 @@ namespace DataStructures.LinkedList.SingleLinkedList
             Size = 0;       // Set the size to 0
         }
 
+        public IEnumerator<T> GetEnumerator()
+        {
+            Node<T>? current = Head;    // Start from the beginning of the list
+            while (current != null)     // Traverse the list
+            {
+                yield return current.Value!; // Return the value of the current Node
+                current = current.Next;      // Move to the next Node
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
         // implement iterator soon
 
 
@@ -468,6 +490,8 @@ namespace DataStructures.LinkedList.SingleLinkedList
             Value = value;
             Next = next;
         }
+
+
     }
     #endregion
 }

@@ -1,3 +1,8 @@
+/*
+    Implement Stack using Array in C#
+    By: Hoang Hiep
+*/
+
 using System.Collections;
 
 namespace DataStructures.Stack.ArrayBased

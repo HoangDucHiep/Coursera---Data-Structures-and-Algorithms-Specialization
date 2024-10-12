@@ -1,3 +1,9 @@
+/*
+    Implement Stack using Linked List in C#
+    By: Hoang Hiep
+*/
+
+
 using System.Collections;
 using DataStructures.LinkedList.DoubleLinkedList;
 
